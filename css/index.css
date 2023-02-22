@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  color: white
+}
+
+main{
+  height: 680px;
+  background-color: #000;
+}
+
+.content{
+  display: block;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.avatar{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.profilePic{
+  border-radius: 50%;
+  width: 25%;
+}
+
+
+.links{
+  display: inline;
+}
+
+.link{
+  color:white;
+  height: 60px;
+  float: left;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+  display: inline;
+  text-decoration: none;  
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+}
+
+.link div{
+  float: left;
+}
+
+.linkIcon{
+  margin:5% 0 0 5%;
+}
+
+.linkName{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media(max-width: 500px){
+  .content{
+    width: 100%;
+    margin: 0;
+  }
+
+  .avatar{
+    width: 100%;
+    margin: 0;
+  }
+
+  .profilePic{
+    width: 40%;
+  }
+
+  .linkIcon{
+    margin:15% 0 0 16%;
+  }
+
+  .link{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
