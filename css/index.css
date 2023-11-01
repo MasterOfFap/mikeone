@@ -4,7 +4,7 @@ body{
 }
 
 main{
-  height: 680px;
+  height: 780px;
   background-color: #000;
 }
 
@@ -71,7 +71,7 @@ main{
 @media(max-width: 1000px){
 
   main{
-    height: 1800px;
+    height: 2000px;
   }
 
   .profileName{
